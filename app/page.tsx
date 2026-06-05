@@ -1,5 +1,6 @@
 "use client"
 
+import { type ReactNode } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { CheckCircle2, BookOpen, Briefcase, Instagram, Linkedin } from "lucide-react"
@@ -7,7 +8,7 @@ import { Discord } from "@/components/ui/icons/discord"
 import { Card, CardContent } from "@/components/ui/card"
 import { motion } from "framer-motion"
 
-const FadeInSection = ({ children, delay = 0 }) => {
+const FadeInSection = ({ children, delay = 0 }: { children: ReactNode; delay?: number }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -20,7 +21,7 @@ const FadeInSection = ({ children, delay = 0 }) => {
   )
 }
 
-const FadeInGrid = ({ children, staggerDelay = 0.1 }) => {
+const FadeInGrid = ({ children, staggerDelay = 0.1 }: { children: ReactNode; staggerDelay?: number }) => {
   return (
     <motion.div
       initial="hidden"
@@ -39,7 +40,7 @@ const FadeInGrid = ({ children, staggerDelay = 0.1 }) => {
   )
 }
 
-const FadeInGridItem = ({ children }) => {
+const FadeInGridItem = ({ children }: { children: ReactNode }) => {
   return (
     <motion.div
       variants={{
@@ -94,17 +95,17 @@ export default function LandingPage() {
           <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0412.JPG-w3DRK5V1Su1Y5PncMQZQCOhPVVIu6O.jpeg"
-              alt="Gabriel Castaneda"
+              alt="Aneesh Matcha"
               width={96}
               height={96}
               className="object-cover object-center w-full h-full"
             />
           </div>
           <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Gabriel Castaneda</h3>
+            <h3 className="text-xl font-bold text-white mb-1">Aneesh Matcha</h3>
             <p className="text-gray-400 text-base mb-3">President</p>
             <p className="text-gray-500 text-sm">
-              Business, Operations and SCM @ SJSU. Passionate about products, AI, space exploration, and startups.
+              Description
             </p>
           </div>
           <a
@@ -120,7 +121,7 @@ export default function LandingPage() {
       </CardContent>
     </Card>,
     <Card
-      key="nicolaus"
+      key="jensen"
       className="bg-[rgb(23,23,23)] border-zinc-900 hover-lift w-[320px] h-[360px] flex flex-col relative"
     >
       <CardContent className="p-5 flex flex-col h-full">
@@ -128,14 +129,14 @@ export default function LandingPage() {
           <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/nic%20pic.jpg-nQuxiWRPARjH0qjy5bvcDEEcGy4VM3.jpeg"
-              alt="Nicolaus Hilleary"
+              alt="Jensen Jacob"
               width={96}
               height={96}
               className="object-cover object-center w-full h-full"
             />
           </div>
           <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Nicolaus Hilleary</h3>
+            <h3 className="text-xl font-bold text-white mb-1">Jensen Jacob</h3>
             <p className="text-gray-400 text-base mb-3">President</p>
             <p className="text-gray-500 text-sm">
               Business, Entrepreneurship @ SJSU. Cofounder Marketing & Product @ CollegeBot. Product @ CoffeeSpace.
@@ -333,7 +334,7 @@ export default function LandingPage() {
         <div className="flex flex-col h-full">
           <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
             <Image
-              src="/images/marl-jonson.png"
+              src="/placeholder-user.jpg"
               alt="Marl Jonson"
               width={96}
               height={96}
