@@ -94,7 +94,7 @@ export default function LandingPage() {
         <div className="flex flex-col h-full">
           <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0412.JPG-w3DRK5V1Su1Y5PncMQZQCOhPVVIu6O.jpeg"
+              src="/"
               alt="Aneesh Matcha"
               width={96}
               height={96}
@@ -109,7 +109,7 @@ export default function LandingPage() {
             </p>
           </div>
           <a
-            href="https://www.linkedin.com/in/gmcast/"
+            href="https://www.linkedin.com/in/aneesh-matcha/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
@@ -128,7 +128,7 @@ export default function LandingPage() {
         <div className="flex flex-col h-full">
           <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/nic%20pic.jpg-nQuxiWRPARjH0qjy5bvcDEEcGy4VM3.jpeg"
+              src="/"
               alt="Jensen Jacob"
               width={96}
               height={96}
@@ -137,150 +137,13 @@ export default function LandingPage() {
           </div>
           <div className="flex-grow">
             <h3 className="text-xl font-bold text-white mb-1">Jensen Jacob</h3>
-            <p className="text-gray-400 text-base mb-3">President</p>
+            <p className="text-gray-400 text-base mb-3">Vice President</p>
             <p className="text-gray-500 text-sm">
-              Business, Entrepreneurship @ SJSU. Cofounder Marketing & Product @ CollegeBot. Product @ CoffeeSpace.
-              Passionate about product management and entrepreneurship.
+              Description
             </p>
           </div>
           <a
-            href="https://www.linkedin.com/in/nicolaushilleary/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn Profile</span>
-          </a>
-        </div>
-      </CardContent>
-    </Card>,
-    <Card
-      key="sachin"
-      className="bg-[rgb(23,23,23)] border-zinc-900 hover-lift w-[320px] h-[360px] flex flex-col relative"
-    >
-      <CardContent className="p-5 flex flex-col h-full">
-        <div className="flex flex-col h-full">
-          <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
-            <Image
-              src="/images/new-team-member.png"
-              alt="Sachin Syal"
-              width={96}
-              height={96}
-              className="object-cover object-center w-full h-full"
-            />
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Sachin Syal</h3>
-            <p className="text-gray-400 text-base mb-3">VP of Outreach</p>
-            <p className="text-gray-500 text-sm">Advertising @ SJSU, Host @ The O'ChakDe Show, Co-Founder @ 3Doshas</p>
-          </div>
-          <a
-            href="http://linkedin.com/in/sachin-syal"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn Profile</span>
-          </a>
-        </div>
-      </CardContent>
-    </Card>,
-    <Card
-      key="shreya"
-      className="bg-[rgb(23,23,23)] border-zinc-900 hover-lift w-[320px] h-[360px] flex flex-col relative"
-    >
-      <CardContent className="p-5 flex flex-col h-full">
-        <div className="flex flex-col h-full">
-          <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_3352.jpg-vu18lhmpr5CcVdLTMhQrSGpVaqiDG1.jpeg"
-              alt="Shreya Madaan"
-              width={96}
-              height={96}
-              className="object-cover object-center w-full h-full"
-            />
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Shreya Madaan</h3>
-            <p className="text-gray-400 text-base mb-3">VP of Outreach</p>
-            <p className="text-gray-500 text-sm">
-              Engineering Management Grad @ SJSU. Dedicated to fostering connections and organizing impactful events
-              with a passion for product management and community building.
-            </p>
-          </div>
-          <a
-            href="https://www.linkedin.com/in/shreya-madaan-20/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn Profile</span>
-          </a>
-        </div>
-      </CardContent>
-    </Card>,
-    <Card
-      key="ashley"
-      className="bg-[rgb(23,23,23)] border-zinc-900 hover-lift w-[320px] h-[360px] flex flex-col relative"
-    >
-      <CardContent className="p-5 flex flex-col h-full">
-        <div className="flex flex-col h-full">
-          <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me.jpg-NQ0qZ5SK2mAIJNYaIKq8ird6wt2EQA.jpeg"
-              alt="Ashley Irawan"
-              width={96}
-              height={96}
-              className="object-cover object-center w-full h-full"
-            />
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Ashley Irawan</h3>
-            <p className="text-gray-400 text-base mb-3">VP of Outreach</p>
-            <p className="text-gray-500 text-sm">
-              Artificial Intelligence @ SJSU. Passionate in building transparent AI systems and entrepreneurship
-            </p>
-          </div>
-          <a
-            href="https://www.linkedin.com/in/ashley-irawan-software-engineer/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn Profile</span>
-          </a>
-        </div>
-      </CardContent>
-    </Card>,
-    <Card
-      key="sai"
-      className="bg-[rgb(23,23,23)] border-zinc-900 hover-lift w-[320px] h-[360px] flex flex-col relative"
-    >
-      <CardContent className="p-5 flex flex-col h-full">
-        <div className="flex flex-col h-full">
-          <div className="w-20 h-20 mx-auto overflow-hidden rounded-full bg-gray-700 mb-4">
-            <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sai-N3w4Dd23txdZe3iazDJFzOBWnRNJmY.png"
-              alt="Sai Krishna Mittapalli"
-              width={96}
-              height={96}
-              className="object-cover object-center w-full h-full"
-            />
-          </div>
-          <div className="flex-grow">
-            <h3 className="text-xl font-bold text-white mb-1">Sai Krishna Mittapalli</h3>
-            <p className="text-gray-400 text-base mb-3">VP of Strategy</p>
-            <p className="text-gray-500 text-sm">
-              Management Information Systems @SJSU. VP @IDEAS SJSU. Passionate about launching ventures from 0 to 100.
-              Aspiring Project Manager.
-            </p>
-          </div>
-          <a
-            href="https://www.linkedin.com/in/saikrmit/"
+            href="https://www.linkedin.com/in/jensen-jacob/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors hover-grow absolute top-5 right-5"
