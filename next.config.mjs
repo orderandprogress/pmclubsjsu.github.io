@@ -13,6 +13,9 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/pmclubsjsu.github.io',
+  assetPrefix: '/pmclubsjsu.github.io/',
   eslint: {
     ignoreDuringBuilds: true,
   },
