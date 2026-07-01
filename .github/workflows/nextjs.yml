@@ -39,10 +39,12 @@ jobs:
           static_site_generator: next
 
       - name: Install dependencies
-        run: pnpm --dir . install --frozen-lockfile
+        working-directory: .
+        run: pnpm install --frozen-lockfile
 
       - name: Build with Next.js
-        run: pnpm --dir . next build
+        working-directory: .
+        run: pnpm next build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
